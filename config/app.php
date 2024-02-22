@@ -5,6 +5,16 @@ use Illuminate\Support\ServiceProvider;
 
 return [
 
+    'telegram_bot_username' => env('TELEGRAM_BOT_USERNAME'),
+    'telegram_bot_token' => env('TELEGRAM_BOT_TOKEN'),
+
+    'accu_weather_url' => 'https://dataservice.accuweather.com/currentconditions/v1',
+    'accu_weather_locations_url' => 'https://dataservice.accuweather.com/locations/v1/cities/search',
+    'accu_weather_key' => env('ACCU_WEATHER_KEY'),
+
+    'open_weather_map_url' => 'https://api.openweathermap.org/data/2.5/weather',
+    'open_weather_map_key' => env('OPEN_WEATHER_MAP_KEY'),
+
     /*
     |--------------------------------------------------------------------------
     | Application Name
